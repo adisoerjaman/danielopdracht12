@@ -50,9 +50,38 @@ nav ul li a {
     width: 45px;
 }
 
+section-one h1 {
+    color: turquoise;
+    font-size: 90px;
+    
+}
+
+section-one-btn {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.btn-secundairy {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px white;
+}
+
 @media only screen and (max-width: 600px) {
     header {
-        padding: 0 45px;
+        padding: 0 40px;
     }
 
     nav {
@@ -68,6 +97,11 @@ nav ul li a {
         flex-direction: column;
         height: 21px;
         justify-content: space-between;
+    }
+
+    .btn-primary {
+        width: 300px;
+        font-size: 15px;
     }
     
   }
