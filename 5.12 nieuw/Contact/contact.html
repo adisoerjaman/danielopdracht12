@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="SDW21">
+            <h3>
+                <a href="#">SDW21</a>
+            </h3>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Over ons/overons.html">Over ons</a>
+                    </li>
+                    <li>
+                        <a href="Projecten/projecten.html">Projecten</a>
+                    </li>
+                    <li>
+                        <a href="Contact/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-bar">
+            <div class="balk"></div>
+            <button>Zoeken</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="contact">
+            <form action="results.html" method="GET" enctype="multipart/form-data">
+                <h1>Contact Formulier</h1>
+                <div>
+                    <p> <label for="Name">Uw naam (Verplicht)</label>
+                    <input type="text" name="name" id="name" placeholder="username" required>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="emmail">Uw Email (Verplicht)</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="subject">Onderwerp</label>
+                    <textarea id="subject" name="subject"></textarea>
+                </p>
+                <p>
+                    <label for="message">Uw bericht</label>
+                    <textarea id="message" name="message"></textarea>
+                </p>
+                </div>
+                
+                <input type="hidden" name="hidden" value="hi">
+              
+                <div class="button">
+                <button type="Send">Verzenden</button>
+            </div>
+            </form>
+        </div>
+        
+    </main>
+    <footer></footer>
+</body>
+
+</html>

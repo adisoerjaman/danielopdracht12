@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Montserrat:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
+
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* Tijdelijke bg */
+    background-color: black;
+    padding: 0 140px;
+}
+
+header:hover {
+    background-color: aqua;
+}
+
+.logo h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.stripe {
+    background-color: white;
+    height: 3px;
+    width: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0 45px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: flex;
+        flex-direction: column;
+        height: 21px;
+        justify-content: space-between;
+    }
+    
+  }
+
+

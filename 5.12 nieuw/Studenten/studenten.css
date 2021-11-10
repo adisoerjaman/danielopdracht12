@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Montserrat:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
+
+header {
+    /* Maakt het eerste blok met navigatiebar */
+    width: 100%;
+    height: 70px;
+    background-color: #213665;
+    display: flex;
+    align-items: center;
+    padding: 0 90px;
+    margin-right: 10px;
+    /* background-image: url(Images/Background.png); */
+}
+
+.SDW21 H3 a {
+    color: white;
+    font-family: Barlow Condensed;
+    font-weight: bold;
+    font-size: 34pt;
+    text-decoration: none;
+}
+
+.navbar ul {
+    margin: 10px;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.navbar ul li a {
+    margin: 9px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 24pt;
+}
+
+.search-bar {
+    display: flex;
+    margin: 10px;
+}
+
+.search-bar .balk {
+    margin: 10px;
+    width: 266px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-bar button {
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 24pt;
+    border: 2px solid #22F0D7;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+}
